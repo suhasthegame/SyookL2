@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Data</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <h1>Random Data Generator</h1>
+    <div class="center">
+        <input type="datetime-local" id="datetime" min="2021-07-14T00:00" />
+        <br>
+        <button class="btn first" type="submit" id="getButton">Get Data</button>
+    </div>
+    <br>
+    <div class="center">
+        <table class="styled-table" hidden>
+            <thead>
+                <th>Name</th>
+                <th>Origin</th>
+                <th>Destination</th>
+            </thead>
+            <tbody id="randomData">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
